@@ -88,15 +88,15 @@ public class Main {
 //        System.out.println("Health remaining "+ player.healthRemaining());
 
 //        BetterPlayer betterPlayer = new BetterPlayer("Player", "Gun", 600);
-//        System.out.println("Health is "+ betterPlayer.getHealth());
-        Printer printer = new Printer(50.0, false);
-        System.out.println("initial page coount = " + printer.getNumberOfPages());
-        int printedPages = printer.pagesPrinted(4);
-        System.out.println("Printed " + printedPages + " pages, total count for printer " + printer.getNumberOfPages());
-        printedPages = printer.pagesPrinted(2);
-        System.out.println("Printed " + printedPages + " pages, total count for printer " + printer.getNumberOfPages());
-        printer.fillUpToner(60.0);
-        System.out.println("Toner " + printer.getTonerLevel());
+//        System.out.println("Health is "+ betterPlayer.g Printer printer = new Printer(50.0, false);
+////        System.out.println("initial page coount = " + printer.getNumberOfPages());
+////        int printedPages = printer.pagesPrinted(4);
+////        System.out.println("Printed " + printedPages + " pages, total count for printer " + printer.getNumberOfPages());
+////        printedPages = printer.pagesPrinted(2);
+////        System.out.println("Printed " + printedPages + " pages, total count for printer " + printer.getNumberOfPages());
+////        printer.fillUpToner(60.0);
+////        System.out.println("Toner " + printer.getTonerLevel());etHealth());
+//
 
     }
 }
