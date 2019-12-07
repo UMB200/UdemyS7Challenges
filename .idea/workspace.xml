@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99818795-3941-418a-a946-2c337a8e3864" name="Default Changelist" comment="" />
+    <list default="true" id="99818795-3941-418a-a946-2c337a8e3864" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UdemySectionSeven/com/UmidJavaUdemy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UdemySectionSeven/com/UmidJavaUdemy/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/UmidJavaUdemy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/UmidJavaUdemy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/UmidJavaUdemy/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/UmidJavaUdemy/Printer.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UcVmYyr6RzY6HELrteEHRHhF8p" />
   <component name="RunDashboard">
@@ -57,5 +65,31 @@
       <updated>1575656030740</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/UmidJavaUdemy/Main.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
