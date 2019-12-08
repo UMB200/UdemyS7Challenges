@@ -26,4 +26,102 @@ public class Bedroom {
         System.out.println("Bedroom->Making bed");
         bed.make();
     }
+
 }
+class Bed {
+    private String style;
+    private int height;
+    private int pillows;
+    private int sheets;
+    private int quilt;
+
+    public Bed(String style, int height, int pillows, int sheets, int quilt) {
+        this.style = style;
+        this.height = height;
+        this.pillows = pillows;
+        this.sheets = sheets;
+        this.quilt = quilt;
+    }
+    public void make(){
+        System.out.println("Bed: -> Making bed");
+    }
+
+
+    public String getStyle() {
+        return style;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public int getPillows() {
+        return pillows;
+    }
+
+    public int getSheets() {
+        return sheets;
+    }
+
+    public int getQuilt() {
+        return quilt;
+    }
+}
+
+class Ceiling {
+    private int height;
+    private int paintedColor;
+
+    public int getHeight() {
+        return height;
+    }
+
+    public int getPaintedColor() {
+        return paintedColor;
+    }
+
+    public Ceiling(int height, int paintedColor) {
+        this.height = height;
+        this.paintedColor = paintedColor;
+    }
+}
+
+class Lamp {
+    private String style;
+    private boolean battery;
+    private int globRating;
+
+    public Lamp(String style, boolean battery, int globRating) {
+        this.style = style;
+        this.battery = battery;
+        this.globRating = globRating;
+    }
+    public void turnOn(){
+        System.out.println("Lamp: -> turning on");
+    }
+
+    public String getStyle() {
+        return style;
+    }
+
+    public boolean isBattery() {
+        return battery;
+    }
+
+    public int getGlobRating() {
+        return globRating;
+    }
+}
+class Wall {
+    private String direction;
+
+    public String getDirection() {
+        return direction;
+    }
+
+    public Wall(String direction) {
+        this.direction = direction;
+    }
+}
+
+

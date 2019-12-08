@@ -1,62 +1,5 @@
 package com.UmidJavaUdemy;
 
-class Movie{
-    private String title;
-
-    public Movie(String title) {
-        this.title = title;
-    }
-    public String idea(){
-        return "No idea";
-    }
-}
-
-class Horror extends Movie{
-    public Horror(){
-        super("Horror");
-    }
-    @Override
-    public String idea(){
-        return  "Very scary";
-    }
-}
-
-class Comedy extends Movie{
-    public Comedy() {
-        super("Very funny");
-    }
-    @Override
-    public String idea() {
-        return "Super funny";
-    }
-}
-
-class Drama extends Movie{
-    public Drama() {
-        super("Uti puti");
-    }
-
-    @Override
-    public String idea() {
-        return "A lot of tears";
-    }
-}
-class SciFi extends Movie{
-    public SciFi() {
-        super("Strange");
-    }
-
-    @Override
-    public String idea() {
-        return "Weird movie";
-    }
-}
-class Musicle extends Movie{
-    public Musicle() {
-        super ("A lot of dance");
-    }
-    //no idea method
-}
 
 public class Main {
 
@@ -97,6 +40,44 @@ public class Main {
 ////        printer.fillUpToner(60.0);
 ////        System.out.println("Toner " + printer.getTonerLevel());etHealth());
 //
+//        for(int i = 1; i < 11; i++){
+//            Movie movie = someMovie();
+//            System.out.println("Movie # " + i + " " + movie.getTitle()+ " \n" + "Plot: " +
+//                    movie.idea() + "\n");
+//        }
+//
+//    }
+//    //polomorphysm
+//    public static Movie someMovie(){
+//        int rand = (int)(Math.random()*5)+1;
+//        System.out.println("Random number is " + rand);
+//        switch (rand) {
+//            case 1:
+//                return new Horror();
+//            case 2:
+//                return new Comedy();
+//            case 3:
+//                return new Drama();
+//            case 4:
+//                return new SciFi();
+//            case 5:
+//                return new Musicle();
+//        }
+//        return null;
 
+        Car car = new Car("Car", 9);
+        System.out.println(car.accelerate() + "\n" + car.brake() +
+                "\n"+ car.startEngine());
+        Hatchback hatchback = new Hatchback("Hyundai", 6);
+        System.out.println(hatchback.accelerate() + "\n" + hatchback.brake() +
+                "\n"+ hatchback.startEngine());
+
+        SUV suv= new SUV("Toyota", 12);
+        System.out.println(suv.accelerate() + "\n" + suv.brake() +
+                "\n"+ suv.startEngine());
+
+        Track track = new Track("Ford RAM", 18);
+        System.out.println(track.accelerate() + "\n" + track.brake() +
+                "\n"+ track.startEngine());
     }
 }
