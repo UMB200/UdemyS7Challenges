@@ -65,19 +65,28 @@ public class Main {
 //        }
 //        return null;
 
-        Car car = new Car("Car", 9);
-        System.out.println(car.accelerate() + "\n" + car.brake() +
-                "\n"+ car.startEngine());
-        Hatchback hatchback = new Hatchback("Hyundai", 6);
-        System.out.println(hatchback.accelerate() + "\n" + hatchback.brake() +
-                "\n"+ hatchback.startEngine());
+//        Car car = new Car("Car", 9);
+//        System.out.println(car.accelerate() + "\n" + car.brake() +
+//                "\n"+ car.startEngine());
+//        Hatchback hatchback = new Hatchback("Hyundai", 6);
+//        System.out.println(hatchback.accelerate() + "\n" + hatchback.brake() +
+//                "\n"+ hatchback.startEngine());
+//
+//        SUV suv= new SUV("Toyota", 12);
+//        System.out.println(suv.accelerate() + "\n" + suv.brake() +
+//                "\n"+ suv.startEngine());
+//
+//        Track track = new Track("Ford RAM", 18);
+//        System.out.println(track.accelerate() + "\n" + track.brake() +
+//                "\n"+ track.startEngine());
+        Hamburger hamburger = new Hamburger("Standard", "well done");
+        hamburger.finalPrice(0, 1, 0, 1);
+        System.out.println("\n");
+        HealthyBurger healthyBurger = new HealthyBurger("rare");
+        healthyBurger.finalPrice(1, 0, 0, 0, 1, 1);
+        System.out.println("\n");
+        DeluxBurger deluxBurger = new DeluxBurger("White", "medium");
+        deluxBurger.finalPrice();
 
-        SUV suv= new SUV("Toyota", 12);
-        System.out.println(suv.accelerate() + "\n" + suv.brake() +
-                "\n"+ suv.startEngine());
-
-        Track track = new Track("Ford RAM", 18);
-        System.out.println(track.accelerate() + "\n" + track.brake() +
-                "\n"+ track.startEngine());
     }
 }
